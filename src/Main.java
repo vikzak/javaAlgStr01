@@ -10,7 +10,7 @@ public class Main {
         int k5 = 0;
         int numb = 1000;
         while (numb > 0){
-            i--;
+            numb--;
             if (numb%3 == 0) k3 = k3+ numb;
             if (numb%5 == 0) k5 = k5+ numb;
         }
